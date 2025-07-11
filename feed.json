@@ -5,11 +5,24 @@
     "home_page_url": "https://ruthink.github.io",
     "feed_url": "https://ruthink.github.io/feed.json",
     "user_comment": "",
-    "icon": "https://ruthink.github.io/media/website/white_on_black.png",
     "author": {
         "name": "摩的佬"
     },
     "items": [
+        {
+            "id": "https://ruthink.github.io/ba-zi-xue-xi-bi-ji.html",
+            "url": "https://ruthink.github.io/ba-zi-xue-xi-bi-ji.html",
+            "title": "八字学习笔记",
+            "summary": "<pre class=\"language-python\"><code>声明\n\n笔记内容基于摩的佬学习九龙道长的八字公开课，公开课视频请移步bilibili等视频网站观看。\n\n尊重科学，抵制封建迷信！\n\n无论如何，都请保持积极乐观的心态，请勿用于封建迷信活动或用于可蒙拐骗。\n如果您对相关知识有极大兴趣，请到正规机构学习。\n\n以后恕不赘述。\n\n End</code></pre>\n",
+            "author": {
+                "name": "摩的佬"
+            },
+            "tags": [
+                   "道法自然"
+            ],
+            "date_published": "2025-07-11T21:22:20+08:00",
+            "date_modified": "2025-07-11T22:24:31+08:00"
+        },
         {
             "id": "https://ruthink.github.io/jiao-qiang-xian.html",
             "url": "https://ruthink.github.io/jiao-qiang-xian.html",

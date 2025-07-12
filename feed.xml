@@ -3,12 +3,32 @@
     <title>悠想-想你所想，享你所想</title>
     <link href="https://ruthink.github.io/feed.xml" rel="self" />
     <link href="https://ruthink.github.io" />
-    <updated>2025-07-11T22:24:31+08:00</updated>
+    <updated>2025-07-12T13:21:40+08:00</updated>
     <author>
         <name>摩的佬</name>
     </author>
     <id>https://ruthink.github.io</id>
 
+    <entry>
+        <title>八字学习笔记（二）</title>
+        <author>
+            <name>摩的佬</name>
+        </author>
+        <link href="https://ruthink.github.io/ba-zi-xue-xi-bi-jier.html"/>
+        <id>https://ruthink.github.io/ba-zi-xue-xi-bi-jier.html</id>
+            <category term="道法自然"/>
+
+        <updated>2025-07-12T13:21:40+08:00</updated>
+            <summary>
+                <![CDATA[
+                    <h2 id="h2--">宫位、六亲与神煞解析</h2>
+<h3 id="h3-u56DBu67F1u5BABu4F4Du57FAu7840u542Bu4E49"><a name="四柱宫位基础含义" class="reference-link"></a>四柱宫位基础含义</h3>
+<p>八字命盘由<strong>年柱、月柱、日柱、时柱</strong>四柱组成，每柱包含天干地支，分别对应人生不同领域。以下是核心宫位象征意义及六亲关系：</p>
+
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
     <entry>
         <title>八字学习笔记</title>
         <author>
@@ -23,16 +43,17 @@
                 <![CDATA[
                     <pre class="language-python"><code>声明
 
-笔记内容基于摩的佬学习九龙道长的八字公开课，公开课视频请移步bilibili等视频网站观看。
+笔记内容基于摩的佬学习九龙道长的八字公开课，公开课视频请移步YouTube等视频网站观看。
+笔记融入了摩的佬的自我理解，请以授课者为准。
 
 尊重科学，抵制封建迷信！
 
-无论如何，都请保持积极乐观的心态，请勿用于封建迷信活动或用于可蒙拐骗。
+无论如何，都请保持积极乐观的心态，请勿用于封建迷信活动或用于坑蒙拐骗。
 如果您对相关知识有极大兴趣，请到正规机构学习。
 
 以后恕不赘述。
 
- End</code></pre>
+End</code></pre>
 
                 ]]>
             </summary>

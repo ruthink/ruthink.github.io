@@ -10,10 +10,24 @@
     },
     "items": [
         {
+            "id": "https://ruthink.github.io/ba-zi-xue-xi-bi-jier.html",
+            "url": "https://ruthink.github.io/ba-zi-xue-xi-bi-jier.html",
+            "title": "八字学习笔记（二）",
+            "summary": "<h2 id=\"h2--\">宫位、六亲与神煞解析</h2>\n<h3 id=\"h3-u56DBu67F1u5BABu4F4Du57FAu7840u542Bu4E49\"><a name=\"四柱宫位基础含义\" class=\"reference-link\"></a>四柱宫位基础含义</h3>\n<p>八字命盘由<strong>年柱、月柱、日柱、时柱</strong>四柱组成，每柱包含天干地支，分别对应人生不同领域。以下是核心宫位象征意义及六亲关系：</p>\n",
+            "author": {
+                "name": "摩的佬"
+            },
+            "tags": [
+                   "道法自然"
+            ],
+            "date_published": "2025-07-12T13:21:40+08:00",
+            "date_modified": "2025-07-12T13:21:40+08:00"
+        },
+        {
             "id": "https://ruthink.github.io/ba-zi-xue-xi-bi-ji.html",
             "url": "https://ruthink.github.io/ba-zi-xue-xi-bi-ji.html",
             "title": "八字学习笔记",
-            "summary": "<pre class=\"language-python\"><code>声明\n\n笔记内容基于摩的佬学习九龙道长的八字公开课，公开课视频请移步bilibili等视频网站观看。\n\n尊重科学，抵制封建迷信！\n\n无论如何，都请保持积极乐观的心态，请勿用于封建迷信活动或用于可蒙拐骗。\n如果您对相关知识有极大兴趣，请到正规机构学习。\n\n以后恕不赘述。\n\n End</code></pre>\n",
+            "summary": "<pre class=\"language-python\"><code>声明\n\n笔记内容基于摩的佬学习九龙道长的八字公开课，公开课视频请移步YouTube等视频网站观看。\n笔记融入了摩的佬的自我理解，请以授课者为准。\n\n尊重科学，抵制封建迷信！\n\n无论如何，都请保持积极乐观的心态，请勿用于封建迷信活动或用于坑蒙拐骗。\n如果您对相关知识有极大兴趣，请到正规机构学习。\n\n以后恕不赘述。\n\nEnd</code></pre>\n",
             "author": {
                 "name": "摩的佬"
             },
@@ -21,7 +35,7 @@
                    "道法自然"
             ],
             "date_published": "2025-07-11T21:22:20+08:00",
-            "date_modified": "2025-07-11T22:24:31+08:00"
+            "date_modified": "2025-07-11T22:42:34+08:00"
         },
         {
             "id": "https://ruthink.github.io/jiao-qiang-xian.html",

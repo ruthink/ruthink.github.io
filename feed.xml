@@ -3,12 +3,29 @@
     <title>悠想-想你所想，享你所想</title>
     <link href="https://ruthink.github.io/feed.xml" rel="self" />
     <link href="https://ruthink.github.io" />
-    <updated>2025-08-20T16:44:10+08:00</updated>
+    <updated>2025-10-06T11:27:39+08:00</updated>
     <author>
         <name>摩的佬</name>
     </author>
     <id>https://ruthink.github.io</id>
 
+    <entry>
+        <title>数字八字（1）</title>
+        <author>
+            <name>摩的佬</name>
+        </author>
+        <link href="https://ruthink.github.io/shu-zi-ba-zi1.html"/>
+        <id>https://ruthink.github.io/shu-zi-ba-zi1.html</id>
+            <category term="道法自然"/>
+
+        <updated>2025-10-06T11:27:39+08:00</updated>
+            <summary>
+                <![CDATA[
+                    八字，似乎给大家的感觉总是神秘的，难学的。 神秘，无论是软件排盘还是街头的算命先生，你只需报上你的生辰即可，严谨一点考虑个真太阳时，得出的无非八个字，然后就是一堆结论。 难学，一会合，一会冲，一会枭，一会杀，或许就桃花和文昌熟悉，其他一概不知。 其实八字也有简单的一种，就是数字八字，简单，易学，易用。 一、数字八字的排盘 数字八字使用农历纪年法，即正月初一到大年三十。 以农历年份对应十二生肖确定年柱，如鼠年用数字1，牛年用数字2，虎年用数字3，兔年用数字4等；数字和生肖一样，十二年一轮回。生肖数字对应表如下： 使用农历月份确定月柱数字，一年12个月数字对应表如下： 使用农历的日期来确定日柱，需要注意的是：如果日期小于等于12，则直接用日期表示；如果日期大于12则需要进行转换，如13则转换为1-10-3,25这转换为2-10-5，日柱转换表如下： 时柱据时辰来确定，子时用数字1，丑时用数字2，寅时用数字3，具体时柱对应表如下： 以上便可列出八字排盘的上半部分。 按照上半部分计算出的数值，计算出下半部分，如上半部分数值大于等于7，则上半部分数字减去6；否则上半部分数字加上6，最终得出下半部分。对应誊写，便是完整的数字八字排盘。 需要注意的是： 1、数字八字中，男性这箭头向上↑，女性则箭头向下↓； 2、生肖的确定以农历为准，当日及以后这为当年生肖，前一日则为上年生肖； 3、时柱建议查询软件后以真太阳时为准；
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
     <entry>
         <title>又快到七夕</title>
         <author>
@@ -173,25 +190,6 @@ End</code></pre>
             <summary>
                 <![CDATA[
                     <p>书接上回，不论您是否对责任认定书进行了复核，我这就权当是生效的责任认定书了。既然定了责任，那么人民内部矛盾就人民币解决吧，和对方谈钱，他说你找我保险吧，我300万保险。他这话对么？在我看，对了一半，为什么，听摩的佬给你唠唠。</p>
-
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>交通事故责任认定书</title>
-        <author>
-            <name>摩的佬</name>
-        </author>
-        <link href="https://ruthink.github.io/jiao-tong-shi-gu-ze-ren-ren-ding-shu.html"/>
-        <id>https://ruthink.github.io/jiao-tong-shi-gu-ze-ren-ren-ding-shu.html</id>
-            <category term="道交杂谈"/>
-
-        <updated>2025-07-06T19:05:37+08:00</updated>
-            <summary>
-                <![CDATA[
-                    <p>拿到交通事故责任认定书了，怎么看，今天咱们就来唠叨一下这个问题。</p>
-<p>根据《道路交通事故处理程序规定》第六十条规定：公安机关交通管理部门应当根据当事人的行为对发生道路交通事故所起的作用以及过错的严重程度，确定当事人的责任。 （一）因一方当事人的过错导致道路交通事故的，承担全部责任； （二）因两方或者两</p>
 
                 ]]>
             </summary>

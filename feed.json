@@ -10,6 +10,33 @@
     },
     "items": [
         {
+            "id": "https://ruthink.github.io/huo-rong-qi-ye-ban-xie-zai.html",
+            "url": "https://ruthink.github.io/huo-rong-qi-ye-ban-xie-zai.html",
+            "title": "火绒企业版卸载",
+            "summary": "有的朋友在网上下载火绒时误下载成企业版，卸载没有密码导致无法卸载。现提供无需密码正常卸载火绒企业版的方案。 win+r，打开运行，输入msconfig，选择引导-&gt;安全引导，确定后重启电脑。 进入安全模式后，win+r输入cmd，运行界面里输入regedit，找到计算机\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Huorong\\ESEndpoint\\app\\admin把UseUninstallPassword的值设置为0，这样卸载企业版本的火绒就不需要修改密码了 改完记得再在运行中输入msconfig，取消勾选引导-&gt;安全引导，不然重启仍会进入安全模式。",
+            "author": {
+                "name": "摩的佬"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-11-11T10:27:10+08:00",
+            "date_modified": "2025-11-11T10:27:10+08:00"
+        },
+        {
+            "id": "https://ruthink.github.io/shui-yidi-yi-zhang.html",
+            "url": "https://ruthink.github.io/shui-yidi-yi-zhang.html",
+            "title": "税一·第一章",
+            "summary": "<p>第一章·税法基本原理</p>\n<p>税收</p>\n<p>征税主体只能是国家，依据政治权利为满足政府为实现国家职能的支出需要（简单说就是充盈国库，满足后面的公共支出）。分配客体是社会剩余价值，也就是说留足基本需求后的剩余部分在征税，比如个人所得税，并非你的收入都需要缴税，而是在留足基本生活需要5000元后多的部分再缴税。</p>\n",
+            "author": {
+                "name": "摩的佬"
+            },
+            "tags": [
+                   "税务师"
+            ],
+            "date_published": "2025-10-26T20:19:44+08:00",
+            "date_modified": "2025-10-27T10:06:13+08:00"
+        },
+        {
             "id": "https://ruthink.github.io/sou-suo-yin-qing.html",
             "url": "https://ruthink.github.io/sou-suo-yin-qing.html",
             "title": "搜索引擎",
@@ -119,34 +146,6 @@
             ],
             "date_published": "2025-07-29T21:37:14+08:00",
             "date_modified": "2025-07-31T11:36:33+08:00"
-        },
-        {
-            "id": "https://ruthink.github.io/zong-jiaobie-mi-xin.html",
-            "url": "https://ruthink.github.io/zong-jiaobie-mi-xin.html",
-            "title": "宗教，别迷信",
-            "summary": "<p>伴随着少林寺官网公众号的信息，释永信尘埃落定。对于大多数人看来，不算惊讶，只是个时间问题吧。毕竟15年左右就有传言，而所谓的官方查证也是懂得都懂，近期坐实，无非是没人撑腰了。</p>\n",
-            "author": {
-                "name": "摩的佬"
-            },
-            "tags": [
-                   "道法自然"
-            ],
-            "date_published": "2025-07-27T21:38:52+08:00",
-            "date_modified": "2025-07-27T21:38:52+08:00"
-        },
-        {
-            "id": "https://ruthink.github.io/shang-ye-xian-li-pei.html",
-            "url": "https://ruthink.github.io/shang-ye-xian-li-pei.html",
-            "title": "商业险理赔",
-            "summary": "<p>商业险，既然是商业的，必然是有别于交强险的法律强制性，通俗点说就是你可以买，可以不买，可以和保险公司商量那些险不买。或许你已经习惯了保险到期后保险公司的营销人员给你发个购买方案和报价，然后你选个价格低的买就是了，但是商业险有没有什么说道呢？</p>\n",
-            "author": {
-                "name": "摩的佬"
-            },
-            "tags": [
-                   "法无定法"
-            ],
-            "date_published": "2025-07-22T15:28:27+08:00",
-            "date_modified": "2025-07-23T11:09:56+08:00"
         }
     ]
 }

@@ -3,44 +3,12 @@
     <title>悠想-想你所想，享你所想</title>
     <link href="https://ruthink.github.io/feed.xml" rel="self" />
     <link href="https://ruthink.github.io" />
-    <updated>2026-01-04T10:50:47+08:00</updated>
+    <updated>2025-11-11T10:27:10+08:00</updated>
     <author>
         <name>摩的佬</name>
     </author>
     <id>https://ruthink.github.io</id>
 
-    <entry>
-        <title>又一颗太阳陨落</title>
-        <author>
-            <name>摩的佬</name>
-        </author>
-        <link href="https://ruthink.github.io/you-yi-ke-tai-yang-yun-luo.html"/>
-        <id>https://ruthink.github.io/you-yi-ke-tai-yang-yun-luo.html</id>
-
-        <updated>2026-01-04T10:50:47+08:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    昨天，刷新闻玩，先是委内瑞拉爆炸，没一会就是马杜罗被擒。 马杜罗被拿下，我一点也不觉得奇怪，冥冥中自有定数吧，毕竟正义的光终会照亮每一个角落。
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>2026</title>
-        <author>
-            <name>摩的佬</name>
-        </author>
-        <link href="https://ruthink.github.io/2026.html"/>
-        <id>https://ruthink.github.io/2026.html</id>
-
-        <updated>2026-01-02T12:19:40+08:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    2026终于来了，总有人说我们会遇到百年未有之大变局，这个我不敢苟同，100年来，变的东西太多了，有形的无形的，皆在变化，所以，也许很久，也许不久，变局，也谈不上百年未有，即使是苏联那种敢于以身试法来自证的，也无非才几十年，而至于萨达姆或者卡扎菲，也没多久，所以不要动不动就百年未有，近代史没多长。
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
     <entry>
         <title>火绒企业版卸载</title>
         <author>
@@ -53,133 +21,6 @@
             <summary type="html">
                 <![CDATA[
                     有的朋友在网上下载火绒时误下载成企业版，卸载没有密码导致无法卸载。现提供无需密码正常卸载火绒企业版的方案。 win+r，打开运行，输入msconfig，选择引导-&gt;安全引导，确定后重启电脑。 进入安全模式后，win+r输入cmd，运行界面里输入regedit，找到计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Huorong\ESEndpoint\app\admin把UseUninstallPassword的值设置为0，这样卸载企业版本的火绒就不需要修改密码了 改完记得再在运行中输入msconfig，取消勾选引导-&gt;安全引导，不然重启仍会进入安全模式。
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>税一·第一章</title>
-        <author>
-            <name>摩的佬</name>
-        </author>
-        <link href="https://ruthink.github.io/shui-yidi-yi-zhang.html"/>
-        <id>https://ruthink.github.io/shui-yidi-yi-zhang.html</id>
-            <category term="瞎说瞎写"/>
-
-        <updated>2025-10-26T20:19:44+08:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    <p>第一章·税法基本原理</p>
-<p>税收</p>
-<p>征税主体只能是国家，依据政治权利为满足政府为实现国家职能的支出需要（简单说就是充盈国库，满足后面的公共支出）。分配客体是社会剩余价值，也就是说留足基本需求后的剩余部分在征税，比如个人所得税，并非你的收入都需要缴税，而是在留足基本生活需要5000元后多的部分再缴税。</p>
-
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>搜索引擎</title>
-        <author>
-            <name>摩的佬</name>
-        </author>
-        <link href="https://ruthink.github.io/sou-suo-yin-qing.html"/>
-        <id>https://ruthink.github.io/sou-suo-yin-qing.html</id>
-            <category term="法无定法"/>
-
-        <updated>2025-10-20T16:03:20+08:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>后天八卦的方位</title>
-        <author>
-            <name>摩的佬</name>
-        </author>
-        <link href="https://ruthink.github.io/hou-tian-ba-gua-de-fang-wei.html"/>
-        <id>https://ruthink.github.io/hou-tian-ba-gua-de-fang-wei.html</id>
-            <category term="道法自然"/>
-
-        <updated>2025-10-12T20:34:41+08:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    <p>为何后天八卦中的方位不同于我们生活中熟知的上北下南左西右东？为什么在梅花易数等易学运用中涉及方位时要用后天八卦？</p>
-
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>数字八字（3）</title>
-        <author>
-            <name>摩的佬</name>
-        </author>
-        <link href="https://ruthink.github.io/shu-zi-ba-zi3.html"/>
-        <id>https://ruthink.github.io/shu-zi-ba-zi3.html</id>
-            <category term="道法自然"/>
-
-        <updated>2025-10-08T10:42:51+08:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    <p>数字八字看健康时，利用的仍是生克原理。</p>
-<p>五行的相生关系：木生火，火生土，土生金，金生水，水生木。</p>
-<p>五行的相克关系：木克土，土克水，水克火，火克金，金克木。</p>
-<p>身体五脏六腑的五行属性：木主肝胆、火主心脏、土主脾胃、金主肺呼吸系统、水主肾脏泌尿系统。</p>
-
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>数字八字（2）</title>
-        <author>
-            <name>摩的佬</name>
-        </author>
-        <link href="https://ruthink.github.io/shu-zi-ba-zi2.html"/>
-        <id>https://ruthink.github.io/shu-zi-ba-zi2.html</id>
-            <category term="道法自然"/>
-
-        <updated>2025-10-06T15:56:18+08:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    数字八字与阴阳五行 数字八字的四柱含义 与传统八字一样，数字八字排盘后的四柱也有其意义 生克作用 邻位相作用，隔位不作用，上下不作用，首尾可作用，3遇89变木，6遇阴变阳。 生我者父母，克我者官鬼，同我者兄弟，我生者子女，我克者妻财。
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>数字八字（1）</title>
-        <author>
-            <name>摩的佬</name>
-        </author>
-        <link href="https://ruthink.github.io/shu-zi-ba-zi1.html"/>
-        <id>https://ruthink.github.io/shu-zi-ba-zi1.html</id>
-            <category term="道法自然"/>
-
-        <updated>2025-10-06T11:27:39+08:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    <p>八字，似乎给大家的感觉总是神秘的，难学的。</p>
-<p>神秘，无论是软件排盘还是街头的算命先生，你只需报上你的生辰即可，严谨一点考虑个真太阳时，得出的无非八个字，然后就是一堆结论。</p>
-<p>难学，一会合，一会冲，一会枭，一会杀，或许就桃花和文昌熟悉，其他一概不知。</p>
-<p>其实八字也有简单的一种，就是数字八字，简单，易学，易用。</p>
-
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>又快到七夕</title>
-        <author>
-            <name>摩的佬</name>
-        </author>
-        <link href="https://ruthink.github.io/you-kuai-dao-qi-xi.html"/>
-        <id>https://ruthink.github.io/you-kuai-dao-qi-xi.html</id>
-            <category term="道法自然"/>
-
-        <updated>2025-08-20T16:44:10+08:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    总是容易被打动，总以为一年一见的他们的爱是那么轰轰烈烈，直到后来才反应过来，天上一天，地上一年，我们一年一七夕，他们也就是天天相见。这么看来，神话也好童话也罢，打动不了我了。
                 ]]>
             </summary>
         <content></content>

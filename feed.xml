@@ -3,12 +3,28 @@
     <title>悠想-想你所想，享你所想</title>
     <link href="https://ruthink.github.io/feed.xml" rel="self" />
     <link href="https://ruthink.github.io" />
-    <updated>2025-11-11T10:27:10+08:00</updated>
+    <updated>2026-02-24T11:38:27+08:00</updated>
     <author>
         <name>摩的佬</name>
     </author>
     <id>https://ruthink.github.io</id>
 
+    <entry>
+        <title>自我革命 重塑底层</title>
+        <author>
+            <name>摩的佬</name>
+        </author>
+        <link href="https://ruthink.github.io/zi-wo-ge-ming-chong-su-di-ceng.html"/>
+        <id>https://ruthink.github.io/zi-wo-ge-ming-chong-su-di-ceng.html</id>
+
+        <updated>2026-02-24T10:17:08+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    2月23日，币圈大佬孙宇晨近日又出炸裂言论！孙宇晨2月22日在X上发文称：2016年我提出90后不买房不买车不结婚，把所有时间用于自我提升与科技创新，2026年我提出，能和AI聊天就不要和人类聊天，删除所有90后之前出生人的联系方式，千万不要沾染任何老登气息，时间宝贵！全力拥抱未来！孙宇晨还补充称：大家可以发散下，类似于老登软件也不要用了，例如微信，能平替用豆包尽量用豆包。 对于孙宇晨所提出的这些，我还是比较赞同的，纵观人类发展史，创新很少，多是依赖于经验主义，虽然现阶段AI仍是基于数据的整合提炼，但其依赖的是全网经验，这就远超过我们祖辈、父辈所能给予我们的经验，但前提仍是要使用具备国际视野的AI，如果一个AI自身已经被洗脑了，那么他说述的东西也是没有任何价值的甚至是扭曲的。 当然，删除所有90后之前出身人的联系方式也过于极端了，可以不听，但至少在当下这个人际社会里，维持表面和平的敷衍还是有所必要的。 2026年，我也要自我革命，重塑自身底层。坚持阅读好书，我所谓的好书必然是指真正的大家所著的书，优先阅读港版或者台版，至于渠道无论是zlib还是拼夕夕，费点心都应该是能找到的，其次便是重学外语，虽然网上很多老师在批判新概念英语，但毕竟这么多年了，成熟的资料网上也比比皆是，就学起来吧，无论用什么教材，无非听说读写。最后，学习python编程，重塑自己的思维方式。 出生在哪里不是我能决定的，出身也不是我们能决定的，当下能决定的唯有自我革命，放弃以前的生活和思维方式，重塑底层代码。
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
     <entry>
         <title>火绒企业版卸载</title>
         <author>
@@ -23,6 +39,18 @@
                     有的朋友在网上下载火绒时误下载成企业版，卸载没有密码导致无法卸载。现提供无需密码正常卸载火绒企业版的方案。 win+r，打开运行，输入msconfig，选择引导-&gt;安全引导，确定后重启电脑。 进入安全模式后，win+r输入cmd，运行界面里输入regedit，找到计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Huorong\ESEndpoint\app\admin把UseUninstallPassword的值设置为0，这样卸载企业版本的火绒就不需要修改密码了 改完记得再在运行中输入msconfig，取消勾选引导-&gt;安全引导，不然重启仍会进入安全模式。
                 ]]>
             </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>yandex搜索引擎</title>
+        <author>
+            <name>摩的佬</name>
+        </author>
+        <link href="https://ruthink.github.io/sou-suo-yin-qing.html"/>
+        <id>https://ruthink.github.io/sou-suo-yin-qing.html</id>
+
+        <updated>2025-10-20T16:03:20+08:00</updated>
+            <summary></summary>
         <content></content>
     </entry>
 </feed>

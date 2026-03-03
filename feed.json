@@ -1,0 +1,90 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "悠想-想你所想，享你所想",
+    "description": "",
+    "home_page_url": "https://ruthink.github.io",
+    "feed_url": "https://ruthink.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "摩的佬"
+    },
+    "items": [
+        {
+            "id": "https://ruthink.github.io/yuan-chi-sheng-mu-biao.html",
+            "url": "https://ruthink.github.io/yuan-chi-sheng-mu-biao.html",
+            "title": "远离圣母婊",
+            "summary": "<p>2月的最后一天，又一个太阳没了，伴随而来的是降温。</p>\n<p>自媒体上，有些圣母又开始用Amani作背景音乐来呼唤它的和平了，作为基本盘，它们就是稳定的基石。圣母婊只看到了战争的血腥，而忽视了哈梅内伊统治下伊朗的人权，那些为取掉头巾而抗争的女性。</p>\n",
+            "author": {
+                "name": "摩的佬"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-03-03T10:21:50+08:00",
+            "date_modified": "2026-03-03T10:21:50+08:00"
+        },
+        {
+            "id": "https://ruthink.github.io/qu-ni-ma-de-ou-xiang.html",
+            "url": "https://ruthink.github.io/qu-ni-ma-de-ou-xiang.html",
+            "title": "保险也需要保险",
+            "summary": "<p>保险，从诞生之初到现在，似乎在这都是不受欢迎的东西，曾经，听过某老师直接说出的一人卖保险，全家不要脸的说法。再到后面，银行存钱莫名变成的保险存单，直至保险公司一如既往的这也不赔那也不赔。归根结底，原因在于保险的营销方式。</p>\n",
+            "author": {
+                "name": "摩的佬"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-02-28T10:43:37+08:00",
+            "date_modified": "2026-02-28T19:43:31+08:00"
+        },
+        {
+            "id": "https://ruthink.github.io/guang-yao-dian-you-gan.html",
+            "url": "https://ruthink.github.io/guang-yao-dian-you-gan.html",
+            "title": "逛药店有感",
+            "summary": "<p>晚饭后瞎逛，步入一家药房，随口问了问打虫药，药师给拿了个小盒的打虫药，未曾听闻过的品牌，看了看价格2片6元钱，看似不贵，我又放了下去，药师看到我的动作后随口说了句，这是最便宜的，我说我要史克肠虫清，其他牌子的不要，药师说那个贵，我回答贵也要。药师拿了药，结账一看，18元，里面有10片，也就是说是那个未曾听闻过牌子的5倍量，价格却仅仅是3倍，这么一算，性价比还是在原研药里。后面有看了看治疗感冒的中成药，价格都不便宜，而西药一对比，更具性价比了。</p>\n",
+            "author": {
+                "name": "摩的佬"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-02-25T21:36:07+08:00",
+            "date_modified": "2026-02-26T10:09:34+08:00"
+        },
+        {
+            "id": "https://ruthink.github.io/zi-wo-ge-ming-chong-su-di-ceng.html",
+            "url": "https://ruthink.github.io/zi-wo-ge-ming-chong-su-di-ceng.html",
+            "title": "自我革命 重塑底层",
+            "summary": "<p>2月23日，币圈大佬孙宇晨近日又出炸裂言论！孙宇晨2月22日在X上发文称：2016年我提出90后不买房不买车不结婚，把所有时间用于自我提升与科技创新，2026年我提出，</p>\n",
+            "author": {
+                "name": "摩的佬"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-02-24T10:17:08+08:00",
+            "date_modified": "2026-02-25T15:57:37+08:00"
+        },
+        {
+            "id": "https://ruthink.github.io/huo-rong-qi-ye-ban-xie-zai.html",
+            "url": "https://ruthink.github.io/huo-rong-qi-ye-ban-xie-zai.html",
+            "title": "火绒企业版卸载",
+            "summary": "<p>有的朋友在网上下载火绒时误下载成企业版，卸载没有密码导致无法卸载。现提供无需密码正常卸载火绒企业版的方案。</p>\n",
+            "author": {
+                "name": "摩的佬"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-11-11T10:27:10+08:00",
+            "date_modified": "2026-02-24T11:39:43+08:00"
+        },
+        {
+            "id": "https://ruthink.github.io/sou-suo-yin-qing.html",
+            "url": "https://ruthink.github.io/sou-suo-yin-qing.html",
+            "title": "yandex搜索引擎",
+            "author": {
+                "name": "摩的佬"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-10-20T16:03:20+08:00",
+            "date_modified": "2026-02-24T10:14:07+08:00"
+        }
+    ]
+}

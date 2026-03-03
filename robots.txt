@@ -1,3 +1,2 @@
 User-agent: *
 Disallow:
-Sitemap: https://ruthink.github.io/sitemap.xml

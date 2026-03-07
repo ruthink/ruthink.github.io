@@ -10,6 +10,19 @@
     },
     "items": [
         {
+            "id": "https://ruthink.github.io/zai-cloudflare-pages-shang-da-jian-yi-gebu-guan-lian-github-de-hexo-bo-keji-jian-ru-men-zhi-nan.html",
+            "url": "https://ruthink.github.io/zai-cloudflare-pages-shang-da-jian-yi-gebu-guan-lian-github-de-hexo-bo-keji-jian-ru-men-zhi-nan.html",
+            "title": "在 Cloudflare Pages 上搭建一个「不关联 GitHub」的 Hexo 博客（极简入门指南）",
+            "summary": "<p># 在 Cloudflare Pages 上搭建一个「不关联 GitHub」的 Hexo 博客（极简入门指南）<br>去年在 GitHub 上建了个博客，本想让 Cloudflare Page 直接连接 GitHub 仓库，后来觉得还是重新弄一个，毕竟使用 Hexo 也很有趣。下面简单介绍如何搭建一个最基础的不关联 GitHub 的博客。</p>\n",
+            "author": {
+                "name": "摩的佬"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-03-07T21:40:33+08:00",
+            "date_modified": "2026-03-07T21:40:33+08:00"
+        },
+        {
             "id": "https://ruthink.github.io/yuan-chi-sheng-mu-biao.html",
             "url": "https://ruthink.github.io/yuan-chi-sheng-mu-biao.html",
             "title": "远离圣母婊",

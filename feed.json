@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://ruthink.github.io/chan-zhong-shuo-shan-di-1kejiao-ni-chao-gu-piao-1bu-hui-ying-qian-de-jing-ji-renzhi-shi-fei-ren.html",
+            "url": "https://ruthink.github.io/chan-zhong-shuo-shan-di-1kejiao-ni-chao-gu-piao-1bu-hui-ying-qian-de-jing-ji-renzhi-shi-fei-ren.html",
+            "title": "缠中说禅第1课：教你炒股票1：不会赢钱的经济人，只是废人！",
+            "summary": "<p>“教你炒股票”这样的题目，全中国不会有第二人比本ID更适合写的。当然，股票是炒出来的，不是写出来的，因此也从未想过写这样的题目。但任何事情都是有缘起的，缘分到了，也不妨写上一写。</p>\n",
+            "author": {
+                "name": "转载"
+            },
+            "tags": [
+                   "转载好文"
+            ],
+            "date_published": "2026-05-06T11:38:35+08:00",
+            "date_modified": "2026-05-06T11:39:06+08:00"
+        },
+        {
             "id": "https://ruthink.github.io/zai-cloudflare-pages-shang-da-jian-yi-gebu-guan-lian-github-de-hexo-bo-keji-jian-ru-men-zhi-nan.html",
             "url": "https://ruthink.github.io/zai-cloudflare-pages-shang-da-jian-yi-gebu-guan-lian-github-de-hexo-bo-keji-jian-ru-men-zhi-nan.html",
             "title": "在 Cloudflare Pages 上搭建一个「不关联 GitHub」的 Hexo 博客（极简入门指南）",

@@ -3,12 +3,30 @@
     <title>悠想-想你所想，享你所想</title>
     <link href="https://ruthink.github.io/feed.xml" rel="self" />
     <link href="https://ruthink.github.io" />
-    <updated>2026-05-06T11:21:16+08:00</updated>
+    <updated>2026-05-06T11:39:06+08:00</updated>
     <author>
         <name>摩的佬</name>
     </author>
     <id>https://ruthink.github.io</id>
 
+    <entry>
+        <title>缠中说禅第1课：教你炒股票1：不会赢钱的经济人，只是废人！</title>
+        <author>
+            <name>转载</name>
+        </author>
+        <link href="https://ruthink.github.io/chan-zhong-shuo-shan-di-1kejiao-ni-chao-gu-piao-1bu-hui-ying-qian-de-jing-ji-renzhi-shi-fei-ren.html"/>
+        <id>https://ruthink.github.io/chan-zhong-shuo-shan-di-1kejiao-ni-chao-gu-piao-1bu-hui-ying-qian-de-jing-ji-renzhi-shi-fei-ren.html</id>
+            <category term="转载好文"/>
+
+        <updated>2026-05-06T11:38:35+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    <p>“教你炒股票”这样的题目，全中国不会有第二人比本ID更适合写的。当然，股票是炒出来的，不是写出来的，因此也从未想过写这样的题目。但任何事情都是有缘起的，缘分到了，也不妨写上一写。</p>
+
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
     <entry>
         <title>在 Cloudflare Pages 上搭建一个「不关联 GitHub」的 Hexo 博客（极简入门指南）</title>
         <author>

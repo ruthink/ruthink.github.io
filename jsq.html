@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026年都江堰吴律师专业交通事故死亡赔偿金计算器</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #f4f7fa;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            text-align: center;
+            color: #1f4680;
+            font-size: 24px;
+            margin-top:0;
+        }
+        .tip {
+            background-color: #fff6cc;
+            border-left:4px solid #f0c848;
+            padding:12px 16px;
+            margin-bottom:24px;
+            font-size:14px;
+            line-height:1.6;
+        }
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap:16px;
+            margin-bottom:16px;
+        }
+        @media(max-width:640px){
+            .row{grid-template-columns:1fr;}
+        }
+        label {
+            display:block;
+            margin-bottom:6px;
+            font-weight:500;
+        }
+        input, select {
+            width:100%;
+            padding:10px;
+            border:1px solid #ccc;
+            border-radius:6px;
+            font-size:16px;
+        }
+        .btns{
+            margin:24px 0;
+            display:flex;
+            gap:12px;
+            flex-wrap:wrap;
+        }
+        button{
+            padding:12px 20px;
+            border:none;
+            border-radius:6px;
+            cursor:pointer;
+            font-size:16px;
+        }
+        #calcBtn{
+            background:#1f4680;
+            color:#fff;
+        }
+        #exportBtn{
+            background:#28a745;
+            color:#fff;
+        }
+        #resetBtn{
+            background:#888;
+            color:#fff;
+        }
+        .addDependBtn{
+            background:#428bca;
+            color:#fff;
+            padding:8px 14px;
+            font-size:14px;
+            margin-bottom:12px;
+        }
+        .depend-item{
+            border:1px solid #dde4ee;
+            border-radius:8px;
+            padding:14px;
+            margin-bottom:10px;
+            background:#f8fafc;
+        }
+        .depend-row{
+            display:grid;
+            grid-template-columns:1fr 1fr auto;
+            gap:10px;
+        }
+        .delDepend{
+            background:#d9534f;
+            color:#fff;
+            padding:6px 10px;
+            font-size:14px;
+        }
+        .result-box{
+            background:#f0f6ff;
+            padding:20px;
+            border-radius:8px;
+            margin-top:20px;
+            white-space:pre-wrap;
+            line-height:1.7;
+        }
+        .footer-note{
+            margin-top:24px;
+            font-size:13px;
+            color:#666;
+            line-height:1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>2026年都江堰吴律师专业交通事故死亡赔偿金计算机</h1>
+        <div class="tip">
+            ⚠️ 四川本地裁判标准：丧葬费45876元；精神损害抚慰金统一按30000元支持；<strong>不支持家属处理丧葬事宜误工费、交通费</strong>。
+            机动车与非机动车/行人事故责任比例（四川实施办法第五十二条）：主责80%、同等60%、次责40%、无责10%；机动车之间：主责70%、同等50%、次责30%。
+            适用四川省2025年度统计数据（2026诉讼适用），城乡统一标准，不分农村/城镇户口。
+            仅为赔偿金额估算参考，不构成法律意见；最终赔偿金额以法院判决、保险核算为准。
+        </div>
+
+        <div class="row">
+            <div>
+                <label>死者年龄（周岁）</label>
+                <input id="age" type="number" min="0" max="120" placeholder="例如：45">
+            </div>
+            <div>
+                <label>事故类型</label>
+                <select id="accidentType">
+                    <option value="motorVsPed">机动车 VS 行人/非机动车（四川52条）</option>
+                    <option value="motorVsMotor">机动车之间相撞</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <label>事故责任比例</label>
+                <select id="rate">
+                    <option value="100">机动车全责 100%</option>
+                    <option value="80">机动车主责 80%</option>
+                    <option value="60">机动车同等责任 60%</option>
+                    <option value="40">机动车次要责任 40%</option>
+                    <option value="10">机动车无责 10%</option>
+                </select>
+            </div>
+            <div>
+                <label>丧葬费（默认45876元，可修改）</label>
+                <input id="funeral" type="number" value="45876">
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <label>抢救医疗费（元，凭票据）</label>
+                <input id="medical" type="number" value="0">
+            </div>
+            <div>
+                <label>交强险死亡伤残限额（默认180000）</label>
+                <input id="jiaoQiang" type="number" value="180000">
+            </div>
+        </div>
+
+        <div style="margin-top:20px;">
+            <h3 style="margin:8px 0;">被扶养人信息（可多条添加，自动限制年度总额上限32181元）</h3>
+            <button type="button" class="addDependBtn" id="addDependBtn">➕ 添加被扶养人</button>
+            <div id="dependWrap">
+                <!-- 动态添加被扶养人条目 -->
+            </div>
+        </div>
+
+        <div class="btns">
+            <button id="calcBtn">开始计算</button>
+            <button id="exportBtn">导出明细文本</button>
+            <button id="resetBtn">重置全部</button>
+        </div>
+
+        <div class="result-box" id="result">计算结果将展示在这里</div>
+
+        <div class="footer-note">
+            基数标准：四川省2025年度城镇居民人均可支配收入49428元/年；城镇居民人均消费支出32181元/年。<br>
+            法律依据：四川省《中华人民共和国道路交通安全法》实施办法第五十二条；被扶养人有数人的，年赔偿总额累计不超过32181元。<br>
+            四川裁判口径：丧葬费45876元，精神抚慰金固定30000元，不支持丧葬事宜误工、交通费。涉刑附民案件，精神抚慰金一般不予支持。<br>
+            赔付顺序：交强险先行赔付，超出交强险部分按事故责任比例计算。
+        </div>
+    </div>
+
+<script>
+    //四川基础参数
+    const INCOME = 49428;
+    const CONSUME = 32181;
+    const DEFAULT_FUNERAL = 45876;
+    const SPIRIT_FIX = 30000;
+    const dependWrap = document.getElementById('dependWrap');
+    const addDependBtn = document.getElementById('addDependBtn');
+
+    //切换事故类型，自动替换下拉选项
+    document.getElementById('accidentType').onchange = function(){
+        const rateSel = document.getElementById('rate');
+        rateSel.innerHTML = "";
+        if(this.value === 'motorVsPed'){
+            rateSel.innerHTML = `
+                <option value="100">机动车全责 100%</option>
+                <option value="80">机动车主责 80%</option>
+                <option value="60">机动车同等责任 60%</option>
+                <option value="40">机动车次要责任 40%</option>
+                <option value="10">机动车无责 10%</option>
+            `;
+        }else{
+            rateSel.innerHTML = `
+                <option value="100">全责 100%</option>
+                <option value="70">主责 70%</option>
+                <option value="50">同等责任 50%</option>
+                <option value="30">次责 30%</option>
+            `;
+        }
+    }
+
+    //新增被扶养人DOM
+    function addDependItem(ageVal="",countVal=""){
+        const div = document.createElement("div");
+        div.className = "depend-item";
+        div.innerHTML = `
+            <div class="depend-row">
+                <div>
+                    <label>被扶养人年龄</label>
+                    <input type="number" class="d-age" min="0" max="120" placeholder="周岁" value="${ageVal}">
+                </div>
+                <div>
+                    <label>共同扶养人数</label>
+                    <input type="number" class="d-count" min="1" placeholder="含死者，至少1人" value="${countVal}">
+                </div>
+                <div style="display:flex;align-items:flex-end;">
+                    <button class="delDepend">删除</button>
+                </div>
+            </div>
+        `;
+        div.querySelector(".delDepend").onclick = ()=> div.remove();
+        dependWrap.appendChild(div);
+    }
+    addDependBtn.onclick = ()=> addDependItem();
+
+    //计算被扶养人生活费（自动控制年度上限32181）
+    function calcDependTotal(){
+        const items = dependWrap.querySelectorAll(".depend-item");
+        const dependList = [];
+        let rawTotal = 0;
+        for(let item of items){
+            const dAge = Number(item.querySelector(".d-age").value);
+            const dCoCount = Number(item.querySelector(".d-count").value);
+            if(isNaN(dAge) || isNaN(dCoCount) || dCoCount<1) continue;
+            let year;
+            if(dAge <18){
+                year = 18 - dAge;
+            }else if(dAge >=75){
+                year =5;
+            }else{
+                year = 80 - dAge;
+            }
+            const annualShare = CONSUME / dCoCount;
+            dependList.push({year, annualShare});
+        }
+        //按年限分组，逐年核算，单年度总额封顶CONSUME
+        let remainYears = [...new Set(dependList.map(i=>i.year))].sort((a,b)=>b-a);
+        let totalDepend = 0;
+        let prevY = 0;
+        for(let y of remainYears){
+            const span = y - prevY;
+            if(span <=0) continue;
+            let sumAnnual = 0;
+            for(let d of dependList){
+                if(d.year >= y) sumAnnual += d.annualShare;
+            }
+            const cappedAnnual = Math.min(sumAnnual, CONSUME);
+            totalDepend += cappedAnnual * span;
+            prevY = y;
+        }
+        return {totalDepend, dependList};
+    }
+
+    function calc(){
+        const age = Number(document.getElementById('age').value);
+        const rate = Number(document.getElementById('rate').value)/100;
+        let funeral = Number(document.getElementById('funeral').value);
+        const medical = Number(document.getElementById('medical').value);
+        const jiaoQiang = Number(document.getElementById('jiaoQiang').value);
+
+        if(isNaN(age) || age<=0){
+            resultDom.textContent = "请输入有效的死者年龄";
+            return null;
+        }
+        //死亡赔偿金年限
+        let year;
+        if(age <=60){
+            year = 20;
+        }else if(age >=75){
+            year =5;
+        }else{
+            year = 80 - age;
+        }
+        const deathComp = INCOME * year;
+        if(isNaN(funeral) || funeral <=0) funeral = DEFAULT_FUNERAL;
+
+        const dependResult = calcDependTotal();
+        const dependFee = dependResult.totalDepend;
+
+        //总损失
+        const totalBeforeInsurance = deathComp + dependFee + funeral + SPIRIT_FIX + medical;
+        
+        //交强险
+        const deathDisabilitySum = deathComp + dependFee + SPIRIT_FIX + funeral;
+        let jqPay = Math.min(jiaoQiang, deathDisabilitySum);
+        const medicalJq = Math.min(18000, medical);
+        const medicalRemain = medical - medicalJq;
+
+        const afterJq = (deathDisabilitySum - jqPay) * rate + medicalRemain * rate;
+        const totalPay = jqPay + medicalJq + afterJq;
+
+        let dependText = "";
+        if(dependResult.dependList.length>0){
+            dependText = "【被扶养人明细】\n";
+            dependResult.dependList.forEach((d,idx)=>{
+                dependText += `${idx+1}.扶养年限${d.year}年，死者分摊每年${d.annualShare.toLocaleString()}元\n`;
+            });
+            dependText += `被扶养人生活费合计：${dependFee.toLocaleString()}元（已按法律规定限制年度总额上限${CONSUME}元）\n`;
+        }else{
+            dependText = "2.被扶养人生活费：0元（无被扶养人）\n";
+        }
+
+        const detail = `
+【2026年四川交通事故死亡赔偿明细｜都江堰吴律师（四川52条裁判版）】
+————————————————————
+基础参数：
+死者年龄：${age}周岁
+事故类型：${document.getElementById('accidentType').options[document.getElementById('accidentType').selectedIndex].text}
+责任比例：${document.getElementById('rate').value}%
+四川2025可支配收入：${INCOME}元/年
+四川2025人均消费支出：${CONSUME}元/年
+
+1.死亡赔偿金：${deathComp.toLocaleString()}元
+  计算：${INCOME} × ${year}年
+${dependText}3.丧葬费：${funeral.toLocaleString()}元（四川标准45876元）
+4.精神损害抚慰金（四川标准固定）：${SPIRIT_FIX.toLocaleString()}元
+5.抢救医疗费：${medical.toLocaleString()}元
+
+【重要裁判说明】
+✅ 按四川本地司法实践：不支持家属处理丧葬事宜误工费、交通费，本计算已剔除该项目。
+✅ 责任比例依据四川省《道路交通安全法实施办法》第五十二条。
+
+【交强险赔付】
+交强险死亡伤残限额赔付：${jqPay.toLocaleString()}元
+交强险医疗限额赔付：${medicalJq.toLocaleString()}元
+
+【超出交强险部分，按责任比例计算】
+商业险/个人承担部分：${afterJq.toLocaleString()}元
+
+👉【预估总赔偿金额】${totalPay.toLocaleString()}元
+————————————————————
+⚠️重要提示：
+1.被扶养人生活费计算严格遵循司法解释：多人扶养，年度赔偿总额上限32181元。
+2.四川裁判口径：丧葬费45876元，精神损害抚慰金统一按30000元认定，无上浮；不支持丧葬事宜误工、交通杂费。
+3.若肇事方构成交通肇事罪，刑事附带民事诉讼中，精神抚慰金法院一般不予支持。
+4.本结果仅为四川本地诉讼估算参考，最终金额以法院生效判决、保险核定为准。
+        `
+        resultDom.textContent = detail;
+        return detail;
+    }
+
+    const resultDom = document.getElementById('result');
+    document.getElementById('calcBtn').onclick = function(){
+        calc();
+    }
+    document.getElementById('exportBtn').onclick = function(){
+        const text = calc();
+        if(!text) return;
+        const blob = new Blob([text],{type:'text/plain'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = "四川交通事故死亡赔偿明细_都江堰吴律师(2026裁判版).txt";
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+    document.getElementById('resetBtn').onclick = function(){
+        document.getElementById('age').value = "";
+        document.getElementById('accidentType').value = "motorVsPed";
+        document.getElementById('rate').innerHTML = `
+            <option value="100">机动车全责 100%</option>
+            <option value="80">机动车主责 80%</option>
+            <option value="60">机动车同等责任 60%</option>
+            <option value="40">机动车次要责任 40%</option>
+            <option value="10">机动车无责 10%</option>
+        `;
+        document.getElementById('rate').value = "100";
+        document.getElementById('funeral').value = DEFAULT_FUNERAL;
+        document.getElementById('medical').value = 0;
+        document.getElementById('jiaoQiang').value = 180000;
+        dependWrap.innerHTML = "";
+        resultDom.textContent = "计算结果将展示在这里";
+    }
+</script>
+</body>
+</html>
